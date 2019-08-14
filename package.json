@@ -1,0 +1,32 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "Api para CRUD de users",
+  "main": "index.js",
+  "scripts": {
+    "dev": "set DEBUG=api:* && nodemon index.js",
+    "start": "set DEBUG=api:* && nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/**/api.git"
+  },
+  "author": "Yurian Garcia <yurians19@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/"
+  },
+  "homepage": "https://github.com/**/api#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "chalk": "^2.4.2",
+    "cors": "^2.8.5",
+    "debug": "^4.1.1",
+    "express": "^4.17.1",
+    "mysql2": "^1.6.5",
+    "nodemon": "^1.19.1",
+    "sequelize": "^5.13.1"
+  },
+  "devDependencies": {}
+}
